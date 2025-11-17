@@ -1,0 +1,39 @@
+.carouselWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  min-height: 100vh; 
+  width: 100%;
+}
+
+.carouselContainer {
+  -ms-overflow-style: none;  
+  border-radius: 10px;
+  border: 2px solid black;
+  box-shadow: 0 4px 8px rgba(106, 155, 182, 0.6);
+  box-sizing: border-box;
+  display: flex;
+  max-width: 80%;
+  overflow-x: auto;  
+  overflow-y: hidden; 
+  padding-right: 10px;
+  scrollbar-width: none; 
+}
+
+.carouselWrapper::-webkit-scrollbar {
+  display: none; 
+  width: 0;
+  height: 0;
+}
+
+.carouselImg {
+  height: 400px;     
+  object-fit: cover;  
+  width: auto
+} 
+
+.observerRef {
+  height: 100%;
+  width: 1px;
+}
