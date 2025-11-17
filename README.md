@@ -1,7 +1,7 @@
 Infinite carousel component built with TypeScript & React
 
 preview on vercel:
-https://infinite-carousel-react.vercel.app/
+https://infinite-carousel-u37n.vercel.app/
 
 to run locally:
 
